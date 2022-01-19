@@ -1,0 +1,93 @@
+    <!doctype html>
+    <html lang="en" xmlns="http://www.w3.org/1999/html">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+
+        <title>스파르타코딩클럽 | 부트스트랩 연습하기</title>
+        <!--.<img src="https://search.pstatic.net/common?quality=75&direct=true&ttype=input&src=https%3A%2F%2Fdbscthumb-phinf.pstatic.net%2F5662_000_7%2F20220104113505466_Q710GXB46.png%2F20220104100620_Z.png%3Ftype%3Dm1500" alt="">-->
+        <style>
+            .img {
+                background-image: url("https://search.pstatic.net/common?quality=75&direct=true&ttype=input&src=https%3A%2F%2Fdbscthumb-phinf.pstatic.net%2F5662_000_7%2F20220104113505466_Q710GXB46.png%2F20220104100620_Z.png%3Ftype%3Dm1500");
+                background-size: cover;
+                background-position: center;
+                width: 500px;
+                height: 300px;
+
+            }
+
+            .title {
+                font-size: 35px;
+            }
+
+            .subtitle {
+                font-size: x-small;
+            }
+
+            .line {
+                width: 500px;
+                margin: auto;
+            }
+        </style>
+    </head>
+
+    <body>
+    <div class="line">
+        <div class="img"></div>
+        <span class="title">렉스턴칸 팝니다</span> <span class="subtitle">가격:40,000,000원/대</span>
+        <p>
+            2022년 신형 렉스턴칸이 출시했어요~
+        </p>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-order-user">주문자 이름</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-order-user">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">수량</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>수량을 선택하세요</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-address">주소</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-address">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-homePhone">전화번호</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-homePhone">
+        </div>
+
+
+        <button type="submit" class="btn btn-primary my-1 mx-auto d-block">주문하기</button>
+    </div>
+    </body>
+
+    </html>
